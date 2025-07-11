@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -12,12 +14,18 @@
 
 nav{
     display: flex;
-    margin: 20, 150;
+    margin: 0px 150px;
+    justify-content: space-between;
+    padding: 51.5px 0px;
 
+}
+header{
+    background: url(./Assets/Hero-bg.png);
+    height: 698px;
 }
 
 .logo{
-    font-weight: 900;
+    font-weight: 800;
     font-size: 34px;
     color: #4E47FF;
 }
@@ -29,4 +37,109 @@ nav button{
     background-color: #4E47FF;
     border: none;
     border-radius: 8px;
+}
+
+.banner{
+    text-align: center;
+    
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    max-width: 905px;
+    margin-bottom: 37px;
+}
+
+.banner-btn{
+    font-size: 16px;
+    font-weight:bold ;
+    color: white;
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Action section */
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.action-des{
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+    margin: 23px 0px;
+}
+
+.action-btn{
+    font-size: 16px;
+    font-weight:bold ;
+    color: white;
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 8px;
+}
+
+.action{
+    display: flex;
+    margin: 100px 150px;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.action-div{
+    height: 203px;
+    width: 512px;
+}
+
+.action-img{
+    width: 403px;
+    border-radius: 48px;
+
+}
+
+/* productive user section */
+
+.us-container{
+    margin: 0px 150px 137px 150px;
+    background-color: #4E47FF;
+    opacity: 10%;
+    border-radius: 24px;
+
+.us-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.us-head{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.us-des{
+    font-size: 20px;
+    color: #252432;
+    opacity: 50%; 
+    font-weight: 400; 
+}
+
+.us-data{
+    display: flex;
+    justify-content: center;
+}
+
+
+}
+.us-subcontainer{
+    margin: 50px 142px;
+   
 }
