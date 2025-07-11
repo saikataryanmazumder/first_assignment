@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+nav{
+    display: flex;
+    margin: 20, 150;
+
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 34px;
+    color: #4E47FF;
+}
+nav button{
+    font-size: 16px;
+    font-weight:bold ;
+    color: white;
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 8px;
+}
